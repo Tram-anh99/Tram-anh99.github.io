@@ -1,0 +1,77 @@
+/* CV specific styling */
+.cv-container {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 900px;
+      width: 100%;
+      margin: auto;
+  }
+  
+  .cv-container section {
+      margin-bottom: 40px;
+  }
+  
+  .hello {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0;
+  }
+  
+  .photo img {
+      border-radius: 50%;
+      width: 90px; /* Increased size for better visibility */
+      height: 90px; /* Increased size for better visibility */
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .intro-text h1 {
+      font-size: 2.8rem;
+      color: #333;
+      margin-bottom: 10px;
+  }
+  
+  .intro-text p {
+      font-size: 1.3rem;
+      color: #555;
+  }
+  
+  .education, .skills {
+      padding: 25px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education h2, .skills h2 {
+      margin-bottom: 15px;
+      font-size: 2.2rem;
+      color: #333;
+  }
+  
+  .education ul, .skills ul {
+      list-style-type: none;
+      padding-left: 0;
+  }
+  
+  .education ul li, .skills ul li {
+      margin-bottom: 12px;
+      font-size: 1.3rem;
+      color: #555;
+  }
+  
+  .qr-code {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+  }
+  
+  .qr-code img {
+      width: 80px; /* Increased size for better visibility */
+      height: 80px; /* Increased size for better visibility */
+  }
+  

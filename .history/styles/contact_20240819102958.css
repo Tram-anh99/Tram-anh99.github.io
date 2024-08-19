@@ -1,0 +1,115 @@
+/* Basic reset */
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+ 
+  .photo img {
+      border-radius: 50%;
+      width: 200px; /* Adjust size for consistency */
+      height: 200px; /* Adjust size for consistency */
+      object-fit: cover;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      border: 5px solid #d3d3d3; /* Add a border for a retro look */
+  }
+  
+  
+  
+  /* Header styling */
+  header {
+      background: rgba(255, 255, 255, 0.9);
+      color: #333;
+      padding: 1em 0;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #4CAF50;
+  }
+  
+  nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 1em 0;
+      display: flex;
+      justify-content: center;
+  }
+  
+  nav ul li {
+      margin: 0 1em;
+  }
+  
+  nav ul li a {
+      color: #4CAF50;
+      text-decoration: none;
+      padding: 0.5em 1em;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+      font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+      background: #2f4f4f;
+      color: white;
+  }
+  
+  /* Main content styling */
+  main {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      max-width: 1500px;
+      width: 100%;
+      margin: auto;
+      font-family: 'Courier New', Courier, monospace; /* Retro font */
+  }
+  
+  /* Footer styling */
+  footer {
+      text-align: center;
+      padding: 1em 0;
+      background: rgba(255, 255, 255, 0.9);
+      color: #4CAF50;
+      box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Additional styling */
+  h2 {
+      color: #2f4f4f;
+      margin-bottom: 1em;
+  }
+  
+  p {
+      margin-bottom: 1.5em;
+  }
+  
+  /* Contact details styling */
+  ul.contact-details {
+      list-style: none;
+      padding: 0;
+  }
+  
+  ul.contact-details li {
+      margin-bottom: 1em;
+      font-size: 1.2rem;
+  }
+  
+  ul.contact-details li strong {
+      font-weight: bold;
+  }
+  
+  ul.contact-details li a {
+      color: #4CAF50;
+      text-decoration: none;
+  }
+  
+  ul.contact-details li a:hover {
+      text-decoration: underline;
+  }
+  

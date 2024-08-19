@@ -1,0 +1,85 @@
+/* Styling specifically for CV */
+.cv-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+      margin: auto;
+  }
+  
+  .cv-container section {
+      margin-bottom: 30px;
+  }
+  
+  .hello {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+  }
+  
+  .photo img {
+      border-radius: 50%;
+      width: 80px; /* Đã thay đổi kích thước hình ảnh của bạn */
+      height: 80px; /* Đã thay đổi kích thước hình ảnh của bạn */
+      object-fit: cover;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .intro-text h1 {
+      font-size: 2.5rem;
+      color: #666;
+      margin-bottom: 10px;
+  }
+  
+  .intro-text p {
+      font-size: 1.2rem;
+      color: #444;
+  }
+  
+  .education, .skills {
+      padding: 20px;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education h2, .skills h2 {
+      margin-bottom: 10px;
+      font-size: 2rem;
+      color: #666;
+  }
+  
+  .education ul, .skills ul {
+      list-style-type: none;
+      padding-left: 20px;
+  }
+  
+  .education ul li, .skills ul li {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      color: #444;
+  }
+  
+  .qr-code {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 20px;
+  }
+  
+  .qr-code img {
+      width: 30px; /* Đã thay đổi kích thước mã QR */
+      height: 30px; /* Đã thay đổi kích thước mã QR */
+  }
+  
+  footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #666;
+      color: white;
+      border-radius: 0 0 15px 15px;
+  }
+  

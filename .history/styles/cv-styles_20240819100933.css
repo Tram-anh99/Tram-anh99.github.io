@@ -1,0 +1,88 @@
+/* CV specific styling */
+.cv-container {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      max-width: 1500px;
+      width: 100%;
+      margin: auto;
+      font-family: 'Courier New', Courier, monospace; /* Retro font */
+  }
+  
+  .cv-container section {
+      margin-bottom: 30px;
+  }
+  
+  .hello {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0;
+  }
+  
+  .photo img {
+      border-radius: 50%;
+      width: 200px; /* Adjust size for consistency */
+      height: 200px; /* Adjust size for consistency */
+      object-fit: cover;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      border: 5px solid #d3d3d3; /* Add a border for a retro look */
+  }
+  
+  .intro-text h1 {
+      font-size: 2.5rem;
+      color: #2f4f4f; /* Dark slate grey */
+      margin-bottom: 10px;
+      font-family: 'Georgia', serif; /* Retro font */
+  }
+  
+  .intro-text p {
+      font-size: 2 rem;
+      color: #696969; /* Dim grey */
+      line-height: 1.6;
+      margin: 20px;
+  }
+  
+  .education, .skills, .projects {
+      padding: 25px;
+      background-color: #e0e0e0; /* Light grey background */
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .education h2, .skills h2, .projects h2 {
+      margin-bottom: 10px;
+      font-size: 2rem;
+      color: #2f4f4f; /* Dark slate grey */
+      border-bottom: 2px solid #d3d3d3; /* Add a bottom border for a retro look */
+      padding-bottom: 5px;
+      font-family: 'Georgia', serif; /* Retro font */
+  }
+  
+  .education ul, .skills ul {
+      list-style-type: square; /* Use square bullets for a retro feel */
+      padding-left: 20px;
+  }
+  
+  .education ul li, .skills ul li {
+      margin-bottom: 10px;
+      font-size: 1.5 rem;
+      color: #333; /* Darker grey for better readability */
+  }
+  
+  .qr-code {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+  }
+  
+  .qr-code img {
+      width: 150px; /* Adjust size for consistency */
+      height: 150px; /* Adjust size for consistency */
+      border: 3px solid #d3d3d3; /* Add a border for a retro look */
+      border-radius: 8px; /* Rounded corners for a retro look */
+      font-size: 1.5 em;
+  }
+  
